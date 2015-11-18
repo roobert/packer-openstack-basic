@@ -29,7 +29,7 @@
     },
     {
       "type": "shell",
-      "script": "scripts/openstack-puppet-client.sh",
+      "script": "scripts/openstack-basic.sh",
       "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E -S sh '{{ .Path }}'"
     }
   ]
