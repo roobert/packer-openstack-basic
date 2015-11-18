@@ -1,0 +1,6 @@
+#!/bin/bash
+
+puppet apply -tv /var/lib/firstboot/site.pp
+
+systemctl disable firstboot
+rm -v /etc/systemd/system/firstboot.service
