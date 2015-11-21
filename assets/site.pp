@@ -3,7 +3,7 @@ file { '/etc/hostname':
 }
 
 file { '/etc/hosts':
-  content => template('/tmp/puppet/hosts.erb')
+  content => template('/var/lib/firstboot/hosts.erb')
 }
 
 exec { 'cloud_init_manage_etc_hosts_false':
