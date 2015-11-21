@@ -7,5 +7,5 @@ file { '/etc/hosts':
 }
 
 exec { 'cloud_init_manage_etc_hosts_false':
-  command => "sed -i 's/manage_etc_hosts: true/manage_etc_hosts: false/' /etc/cloud/cloud.cfg"
+  command => "/bin/sed -i 's/manage_etc_hosts: true/manage_etc_hosts: false/' /etc/cloud/cloud.cfg"
 }
