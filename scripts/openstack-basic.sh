@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-DEBIAN_FRONTEND=noninteractive
-DIST_CODENAME=$(lsb_release -cs)
+
+export DEBIAN_FRONTEND=noninteractive
+export DIST_CODENAME=$(lsb_release -cs)
 
 wget https://apt.puppetlabs.com/puppetlabs-release-pc1-$DIST_CODENAME.deb -O /tmp/puppetlabs-release-pc1-$DIST_CODENAME.deb
 dpkg -i /tmp/puppetlabs-release-pc1-$DIST_CODENAME.deb

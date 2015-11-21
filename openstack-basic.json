@@ -5,7 +5,7 @@
     "image_name": "debian-jessie-basic",
     "source_image": "7361359e-25c5-4fa6-b421-65884ccc0f16",
     "floating_ip_pool": "ext-net",
-    "flavor": "3"
+    "flavor": "m1.medium"
     }
   ],
   "provisioners": [
