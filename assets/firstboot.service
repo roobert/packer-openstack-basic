@@ -1,7 +1,7 @@
 [Unit]
 Description=firstboot
 After=network-online.service cloud-init.service cloud-init-local.service cloud-config.service cloud-final.service
-Before=puppet-agent.service puppetserver.service
+Before=puppet-agent.service puppetserver.service ssh.service
 
 [Service]
 Type=oneshot
