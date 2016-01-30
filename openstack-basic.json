@@ -3,7 +3,7 @@
     "type": "openstack",
     "ssh_username": "debian",
     "image_name": "debian-jessie-basic",
-    "source_image": "7361359e-25c5-4fa6-b421-65884ccc0f16",
+    "source_image": "33e3e359-c11d-4cd3-acfe-836c79b52c43",
     "floating_ip_pool": "ext-net",
     "flavor": "m1.medium"
     }
